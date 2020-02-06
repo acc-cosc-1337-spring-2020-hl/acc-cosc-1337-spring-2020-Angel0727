@@ -8,4 +8,31 @@
 //returns 'Option 3' when value 3
 //returns 'Option 4' when value 4
 //return 'Invalid Option' otherwise
+string menu(int num)
+
+{
+	string result = "";
+	{
+	 case 1:
+		return "Option 1";
+		break;
+	 case 2:
+		 return "Option 2";
+		 break;
+	 case 3:
+		 return "Option 3";
+		 break;
+	 case 4:
+		 return "Option 4";
+		 break;
+	 default:
+		 result = "Invalid Option";
+
+
+	
+	}
+	return result;
+
+}
+
 
